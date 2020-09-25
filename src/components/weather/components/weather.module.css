@@ -2,7 +2,7 @@
     width: 70%;
     color: whitesmoke;
     font-size: 15px;
-    /* border: 1px solid pink; */}
+}
 
 .name{
     display: flex;
@@ -27,6 +27,7 @@
     justify-content: center;
     color: whitesmoke;
     font-size: 32px;
+    text-transform: capitalize;
 }
 .wind{
     width:100%;
@@ -34,7 +35,6 @@
     justify-content: space-evenly;
     color: whitesmoke;
     font-size: 15px;
-    /* border: 1px solid pink; */
     padding-top: 20px;
     padding-bottom: 10px;
 }
@@ -44,7 +44,6 @@
     justify-content: space-evenly;
     color: whitesmoke;
     font-size: 15px;
-    /* border: 1px solid pink; */
     padding-top: 10px;
     padding-bottom: 10px;
 }

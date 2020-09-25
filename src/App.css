@@ -22,7 +22,6 @@
   flex-direction: column;
   width: 60%;
   margin: auto;
-  /* border: 1px solid pink; */
   height: 80vh;
   min-height: 500px;
   background: linear-gradient( rgb(48, 62, 143), rgb(47, 150, 163));
@@ -36,9 +35,8 @@
   flex-grow: 2;
 }
 .forecast{
+  position: relative;
   height: 30%;
-  bottom: 0;
-  /* border: 1px solid pink; */
 }
 
 @media only screen and (max-width: 900px) {
@@ -49,7 +47,6 @@
     }
     .App{
       background: rgb(48, 62, 143);
-
     }
   
 }
