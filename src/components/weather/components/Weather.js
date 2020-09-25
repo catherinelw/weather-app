@@ -18,7 +18,7 @@ class Weather extends Component {
             {weatherDescCapitalized}
           </div>
           <div className={styles.wind}>
-            <div>Wind Speed: {wind_speed}</div>
+            <div>Wind Speed: {wind_speed} m/s</div>
             <div>Wind Deg: {wind_deg}</div>
           </div>
           <div className={styles.humidity}>
