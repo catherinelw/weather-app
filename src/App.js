@@ -21,8 +21,8 @@ weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Sa
     const forecastNum=3;
     const frequency=8;
     const result=[];
-    const res = await axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${cityName},${countryCode}&appid=${process.env.REACT_APP_WEATHER_ID}`);
-    const resForecast = await axios.get(`http://api.openweathermap.org/data/2.5/forecast?q=${cityName},${countryCode}&appid=${process.env.REACT_APP_WEATHER_ID}`);
+    const res = await axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${cityName},${countryCode}&appid=${key}`);
+    const resForecast = await axios.get(`http://api.openweathermap.org/data/2.5/forecast?q=${cityName},${countryCode}&appid=${key}`);
     for(let i=1;i<=forecastNum;i++){
       result.push(
       {
@@ -46,9 +46,9 @@ weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Sa
 
     async componentDidMount() {
     const res = await axios.get(`http://api.openweathermap.org/data/2.5/weather?q=Melbourne,au
-                      &appid=${process.env.REACT_APP_WEATHER_ID}`);
+                      &appid=${key}`);
     const resForecast = await axios.get(`http://api.openweathermap.org/data/2.5/forecast?q=Melbourne,au
-                      &appid=${process.env.REACT_APP_WEATHER_ID}`);
+                      &appid=${key}`);
     const forecastNum=3;
     const frequency=8;
     const result=[];
@@ -97,3 +97,90 @@ weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Sa
 
 export default App;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const key='3cb4393536be761750e24e18cb2fb42d';
