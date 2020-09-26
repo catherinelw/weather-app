@@ -1,10 +1,10 @@
-.list{
+.forecasts{
     display: flex;
     width: 100%;
     color: whitesmoke;
     font-size: 15px;
 }
-.listItem{
+.forecastItem{
         display: flex; 
         width: 100%;
 }

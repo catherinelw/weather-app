@@ -35,11 +35,8 @@ weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Sa
        currentWeather:{
                   name: res.data.name,
                   temp: res.data.main.temp,
-                  temp_min:res.data.main.temp_min,
-                  temp_max:res.data.main.temp_max,
                   humidity:res.data.main.humidity,
                   wind_speed: res.data.wind.speed,
-                  wind_deg: res.data.wind.deg,
                   icon: res.data.weather[0].icon,
                   weatherDesc:res.data.weather[0].description
               },
@@ -70,7 +67,6 @@ weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Sa
                    icon: res.data.weather[0].icon,
                    humidity:res.data.main.humidity,
                    wind_speed: res.data.wind.speed,
-                   wind_deg: res.data.wind.deg,
                    weatherDesc: res.data.weather[0].description,
                   }, 
                   forecasts: result

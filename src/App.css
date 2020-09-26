@@ -37,6 +37,7 @@
 .forecast{
   position: relative;
   height: 30%;
+  margin-bottom: 15px;
 }
 
 @media only screen and (max-width: 900px) {

@@ -5,8 +5,8 @@ import styles from './forecasts.module.css'
 const Forecasts = (props) => {
     const {forecasts} = props;
         return (
-          <div className={styles.list}>
-            <div className={styles.listItem}>
+          <div className={styles.forecasts}>
+            <div className={styles.forecastItem}>
             {forecasts.map((forecastItem) => (
                 <ForecastItem 
                   forecastItem={forecastItem}
